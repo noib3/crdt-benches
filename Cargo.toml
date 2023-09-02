@@ -1,0 +1,13 @@
+[package]
+name = "rope-benches"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+automerge = "0.5"
+autosurgeon = "0.8"
+cola-crdt = { path = "../nomad/cola" }
+crdt-testdata = { git = "https://github.com/josephg/jumprope-rs", rev = "ae2a3f3" }
+criterion = "0.5"
+diamond-types = "1.0"
+yrs = "0.16"
